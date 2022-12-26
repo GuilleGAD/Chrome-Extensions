@@ -1,0 +1,27 @@
+{
+    "name": "La Voz del Interior Premium",
+    "description": "Poder ver todas las noticias sin restricciones. By GuilleGAD",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icono.png",
+            "32": "icono.png",
+            "64": "icono.png",
+            "128": "icono.png"
+        }
+    },
+    "icons" : {
+        "16": "icono.png",
+        "32": "icono.png",
+        "64": "icono.png",
+        "128": "icono.png"
+    },
+    "content_scripts":[
+        {
+            "matches": ["https://*.lavoz.com.ar/*"],
+            "js": ["content_script.js"]
+        }
+    ]
+}

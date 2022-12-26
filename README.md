@@ -1,2 +1,2 @@
 # Chrome-Extensions
-Extensiones de Chrome
+Extensiones de Google Chrome
